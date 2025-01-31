@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     image: project-bol # Ensure this matches your Docker image
-    container_name: project-bol-container
+    container_name: project-bol-container-new
     ports:
       - "3002:3000"
     restart: always
