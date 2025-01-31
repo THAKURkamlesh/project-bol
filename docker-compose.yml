@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: project-bol# Ensure this matches your Docker Hub repo
+container_name: project-bol-container
+    ports:
+      - "3002:3000"
+    restart: always
